@@ -93,7 +93,7 @@
             "Language(Code):": "ces",
             "Language(English):": "Czech",
             "Language:": "\u010ce\u0161tina",
-            "Name:": "Czech Bible Kralicka 1613",
+            "Name(English):": "Czech Bible Kralicka 1613",
             "Published:": "1613",
             "Source URL:": "http://crosswire.org/sword/modules/ModInfo.jsp?modName=CzeBKR",
             "Source Version:": "5/1/2016",
@@ -132,12 +132,23 @@
             "Source Version:": "2/7/2021",
             "Source:": "Authorized by the Synod of Dordrecht"
         },
+        "english": {
+            "Copyright:": "Public Domain",
+            "Language(Code):": "eng",
+            "Language(English):": "English",
+            "Language:": "English",
+            "Name(English):": "King James Version",
+            "Published:": "1611, 1769",
+            "Source URL:": "http://ebible.org/details.php?id=eng-kjv2006",
+            "Source Version:": "2/7/2021",
+            "Source:": "King James Authorized Version of the Holy Bible, standardized text"
+        },
         "finnish": {
             "Copyright:": "Public Domain",
             "Language(Code):": "fin",
             "Language(English):": "Finnish",
             "Language:": "Suomen Kieli",
-            "Name:": "Finnish Pyha Raamattu 1933/1938",
+            "Name(English):": "Finnish Pyha Raamattu 1933/1938",
             "Published:": "1933, 1938",
             "Source URL:": "http://unbound.biola.edu",
             "Source Version:": "2/7/2021",
@@ -148,7 +159,7 @@
             "Language(Code):": "fra",
             "Language(English):": "French",
             "Language:": "Fran\u00e7ais",
-            "Name:": "Louis Segond French Bible 1910",
+            "Name(English):": "Louis Segond French Bible 1910",
             "Published:": "1910",
             "Source URL:": "http://ebible.org/details.php?id=fraLSG",
             "Source Version:": "11/15/2021",
@@ -422,9 +433,9 @@
         "romanian": {
             "Copyright:": "Public Domain",
             "Name": "\u0411\u0438\u0431\u043b\u0438\u044f \u0414\u0443\u043c\u0438\u0442\u0440\u0443 \u041a\u043e\u0440\u043d\u0438\u043b\u0435\u0441\u043a\u0443 1924 (\u0411\u0414\u041a)",
-            "Name(English)": "Romanian Bible by Dumitru Cornilescu 1924 in Cyrillic Script",
-            "Source": "Dumitru Cornilescu",
-            "Source URL": "https://ebible.org/ron1924/copyright.htm"
+            "Name(English):": "Romanian Bible by Dumitru Cornilescu 1924 in Cyrillic Script",
+            "Source:": "Dumitru Cornilescu",
+            "Source URL:": "https://ebible.org/ron1924/copyright.htm"
         },
         "russian": {
             "Copyright:": "Public Domain",

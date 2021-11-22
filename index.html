@@ -7,11 +7,24 @@
 
 <script>
 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("demo").innerHTML =
-      this.responseText;
+      var jsondata = JSON.parse(this.responseText);
+      var text = "";
+      for (item in jsondata["items"]){
+         text = text + "<h1>"+jsondata["items"][item]["Name(English):"] + "</h1>";
+         text = text + "<p>Copyright: " + jsondata["items"][item]["Copyright:"] + "</p>";
+         text = text + "<p>Source: " + jsondata["items"][item]["Source:"] + "</p>";
+         text = text + "<p>Link Source: <a href='"+jsondata["items"][item]["Source URL:"] + "'>"+jsondata["items"][item]["Source URL:"]+"</a></p>";
+         text = text + "<hr>";
+      }
+      document.getElementById("demo").innerHTML = text;
+
     }
   };
   xhttp.open("GET", "copyright.json", true);
